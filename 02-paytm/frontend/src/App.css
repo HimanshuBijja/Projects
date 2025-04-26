@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@theme {
+    --color-paytm-100: #00b8f5;
+    --color-paytm-200: #2f82ed;
+}
