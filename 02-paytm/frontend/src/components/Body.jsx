@@ -9,6 +9,7 @@ import { StocksCard } from "../dashboardComponents/StockCard";
 import { MoneyTransferCard } from "../dashboardComponents/MoneyTransferCard";
 import { RechargeCard } from "../dashboardComponents/RechargeCard";
 import { ManagePaymentsCard } from "../dashboardComponents/ManagePaymentsCard";
+import { PillsCard } from "./PillsCard";
 
 export function Body() {
 	return (
@@ -33,13 +34,8 @@ export function Body() {
 					<RewardsCard label={"Refer and Earn"} img={refAndEarnImg} />
 				</div>
 			</div>
-			<div className="h-full w-full grid grid-rows-2 gap-3">
-				<Card label={"Loans"} />
-				<Card label={"Insurance"} />
-			</div>
-			<div className="h-full w-full grid grid-rows-2 gap-3">
-				<Card label={"Saving"} />
-				<Card label={"Mutual funds"} />
+			<div className="row-span-2 h-full w-full">
+				<PillsCard />
 			</div>
 		</div>
 	);

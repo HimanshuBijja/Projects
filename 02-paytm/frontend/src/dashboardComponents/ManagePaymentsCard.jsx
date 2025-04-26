@@ -9,9 +9,9 @@ export function ManagePaymentsCard({ label }) {
 		<div className="w-full h-full bg-slate-200 overflow-hidden rounded-3xl flex flex-col">
 			<div className="pt-3 pl-8 pb-2 mb-3 border-b-1 bg-paytm-100">{label}</div>
 			<div className=" flex-1 grid grid-cols-5 gap-3">
-				<RenderImg img={walletImg} label={"wallet"} />
-				<RenderImg img={bankImg} label={"bank"} />
-				<RenderImg img={upiCircleImg} label={"Upi Circle"} />
+				<RenderImg img={walletImg} label={"Wallet"} />
+				<RenderImg img={bankImg} label={"Bank"} />
+				<RenderImg img={upiCircleImg} label={"UPI Circle"} />
 				<RenderImg img={visaImg} label={"Visa"} />
 				<RenderImg img={internationalImg} label={"International"} />
 			</div>
