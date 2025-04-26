@@ -10,6 +10,7 @@ import { MoneyTransferCard } from "../dashboardComponents/MoneyTransferCard";
 import { RechargeCard } from "../dashboardComponents/RechargeCard";
 import { ManagePaymentsCard } from "../dashboardComponents/ManagePaymentsCard";
 import { PillsCard } from "./PillsCard";
+import { MoreCard } from "./MoreCard";
 
 export function Body() {
 	return (
@@ -31,7 +32,8 @@ export function Body() {
 				</div>
 				<div className="row-span-5 grid grid-cols-2 gap-3">
 					<RewardsCard label={"Rewards"} img={rewardImg} />
-					<RewardsCard label={"Refer and Earn"} img={refAndEarnImg} />
+					{/* <RewardsCard label={"Refer and Earn"} img={refAndEarnImg} /> */}
+					<MoreCard />
 				</div>
 			</div>
 			<div className="row-span-2 h-full w-full">
@@ -53,3 +55,4 @@ function RewardsCard({ img, label }) {
 		</div>
 	);
 }
+
