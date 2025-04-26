@@ -17,7 +17,7 @@ export function Body() {
 		<div className="flex-1 px-[7vw] pb-[2vh] h-full grid grid-cols-4 grid-rows-3 items-center gap-3">
 			<div className="h-full w-full col-span-4 grid grid-cols-8 gap-3">
 				<div className="h-full w-full col-span-3 relative ">
-					<MoneyTransferCard></MoneyTransferCard>
+					<MoneyTransferCard/>
 				</div>
 				<div className="col-span-5 h-full w-full gap-3">
 					<RechargeCard />
