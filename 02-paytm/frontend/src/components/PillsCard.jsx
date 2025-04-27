@@ -27,20 +27,7 @@ function ChildCard({ label, description, img }) {
 		<div className="bg-slate-200 w-full h-full rounded-3xl font-medium p-4 relative">
 			<div className="border-b-2 w-max pl-2 px-5 relative">
 				{label}
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke-width="2"
-					stroke="currentColor"
-					className="size-4.5  absolute -right-2.5 top-1/2 transform -translate-1/2 "
-				>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
-					/>
-				</svg>
+				
 			</div>
 			<div className="text-slate-400 text-sm font-medium pt-1.5 pl-2">
 				{description}
