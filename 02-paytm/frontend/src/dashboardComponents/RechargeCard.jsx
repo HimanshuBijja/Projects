@@ -19,15 +19,15 @@ export function RechargeCard() {
 
 function MiniCard({ label, img }) {
 	return (
-		<div className="relative">
-			<div className="pb-3 px-10 w-full h-full bg-slate-200 rounded-3xl text-center font-medium text-sm flex items-baseline-last justify-center">
-				<div className=" px-[20%] border-t-1 pt-2">{label}</div>
-			</div>
+		<div className="bg-slate-200 rounded-3xl flex items-baseline-last justify-center relative px-[28%]">
 			<img
-				className="w-[36%] h-[30%] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[85%] "
+				className="w-[36%] h-[30%] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[85%]"
 				src={img}
 				alt=""
 			/>
+			<div className=" h-[25%] w-full border-t-1 mb-2 font-medium text-sm text-center flex items-center">
+				{label}
+			</div>
 		</div>
 	);
 }
