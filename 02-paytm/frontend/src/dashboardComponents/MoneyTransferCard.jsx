@@ -25,7 +25,7 @@ export function MoneyTransferCard() {
 function ChildCard({ label, img }) {
 	return (
 		<div className="h-full w-full">
-			<div className="w-[54%] h-[68%] bg-paytm-200 relative rounded-full justify-self-center ">
+			<div className="w-[54%] h-[68%] bg-paytm-200 relative rounded-full justify-self-center hover:w-[58%] hover:h-[72%]  hover:shadow-2xl hover:shadow-slate-400 hover:cursor-pointer">
 				<img
 					className="absolute h-[50%] w-[50%] top-1/2 left-1/2 transform -translate-1/2"
 					src={img}
@@ -41,7 +41,7 @@ function ChildCard({ label, img }) {
 function ChildCard1({ label, img }) {
 	return (
 		<div className="h-full w-full">
-			<div className="w-[54%] h-[68%] bg-paytm-300 relative rounded-full justify-self-center ">
+			<div className="w-[54%] h-[68%] bg-paytm-300 relative rounded-full justify-self-center hover:w-[58%] hover:h-[72%] hover:shadow-2xl hover:shadow-slate-400 hover:cursor-pointer">
 				<img
 					className="absolute h-[50%] w-[50%] top-1/2 left-1/2 transform -translate-1/2"
 					src={img}
